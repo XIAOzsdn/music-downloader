@@ -1,0 +1,14 @@
+{
+  "folium": 1,
+  "id": "music-downloader",
+  "name": "音乐下载器",
+  "version": "1.1.2",
+  "author": "XIAOzsdn",
+  "description": "把当前播放歌曲的原始音频下载到本地（系统下载目录）。在线音源（网易云、酷狗等）使用播放时解析出的音频地址，Navidrome 使用播放器当前的流地址；本地歌曲的文件已在磁盘上，无需下载。",
+  "main": "index.cjs",
+  "client": "client.mjs",
+  "preview": "preview.png",
+  "permissions": ["filesystem.data"],
+  "experimental": ["omni.hooks"],
+  "folia": ">=0.7.20 <0.8.0"
+}
